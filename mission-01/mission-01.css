@@ -1,0 +1,237 @@
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  */
+
+body{
+  background: #F5F5F5;
+}
+
+.tea-bg, .cream-bg, .water-bg{
+  margin: 0 auto;
+}
+
+.cream-bg, .gomgom-bg{
+  margin-top: 15px
+}
+
+span{
+  color: #4E4E4E;
+  font-weight: 700;
+}
+
+
+/* 꿀생강차 */
+.tea-bg{
+  background: #fff;
+  width: 502px;
+  height: 310px;
+  position: relative;
+}
+
+.tea{
+  background: #fff;
+  width: 446px;
+  height: 270px;
+  padding-top: 28;
+}
+
+.tea-button{
+  position: relative;
+  width: 42px;
+  height: 42px;
+  transition: 0.5s;
+  border-style: none;
+  top: 248px;
+  left: -200px;
+  color: gray
+}
+
+.tea-button:hover{
+  background: #0074E9;
+  width: 112px;
+}
+
+.material-symbols-outlined{
+  opacity: 0.2;
+  color: 
+}
+
+.logo1{
+  width: 112px;
+  height: 67px;
+  position: absolute;
+  left: 73px;
+  top: 75px;
+}
+
+.img1{
+  position: absolute;
+  left: 252px;
+  top: 20px;
+}
+
+.title1{
+  position: absolute;
+  left: 48px;
+  top: 155px;
+}
+
+.left{
+  width: 222px;
+  height: 270px;
+  float: left;
+}
+
+.title1{
+  font-size: 24px;
+}
+
+/* section */
+
+section{
+  /* position: relative; */
+  display: flex;
+}
+
+/* 핸드크림 */
+
+.cream-bg{
+  width: 243px;
+  height: 296px;
+  background: #fff;
+  padding-top: 14px;
+  position: relative;
+}
+
+.button1{
+  position: absolute;
+  width: 112px;
+  height: 42px;
+  background: #0074E9;
+}
+
+.button1-text{
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.container{
+  width: 200px;
+  height: 282px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.item-img, .item-logo, .item-text,
+.item2-img, .item2-logo, .item2-text
+{
+  margin: 0 auto;
+}
+
+.item-logo{
+  width: 114px;
+  height: 42px;
+}
+
+.item-text{
+  margin-top: 10px;
+}
+
+.item-img{
+  margin-top: 14px;
+}
+
+.cream-text, .gomgom-text{
+  font-size: 18px;
+}
+
+/* 보리차 */
+
+.gomgom-bg{
+  width: 243px;
+  height: 296px;
+  background: #fff;
+  padding-top: 14px;
+}
+
+.container-gomgom{
+  width: 200px;
+  height: 282px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.item2-logo{
+  width: 114px;
+  height: 42px;
+}
+
+.item2-text{
+  margin-top: 10px;
+}
+
+.item2-img{
+  margin-top: 14px;
+}
+
+.water-button{
+  width: 42px;
+  height: 42px;
+  transition: 0.5s;
+  border-style: none;
+  color: gray;
+  position: relative;
+  top: -30px;
+}
+
+.water-button:hover{
+  background: #0074E9;
+  width: 112px;
+}
